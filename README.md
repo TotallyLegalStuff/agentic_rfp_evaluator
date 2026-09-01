@@ -351,18 +351,18 @@ The local SQLite database demonstrates the classroom persistence requirement. Fo
 ![Evidence](docs/screenshots/05_evidence.png)
 
 ### Validation / Error Handling
-![Validation warning](docs/screenshots/06_validation_issue.png)
+![Validation warning](docs/screenshots/6_validation_issue.png)
 
 ### RFP run ID
-![RFP RUN ID](docs/screenshots/07_rfp_run_ID.png)
+![RFP RUN ID](docs/screenshots/7_rfp_run_ID.png)
 
 ### Warning section
-![Warning section](docs/screenshots/08_warning_section.png)
+![Warning section](docs/screenshots/8_warning_section.png)
 
 ### JSON download button
-![JSON download button](docs/screenshots/09_json_button.png)
+![JSON download button](docs/screenshots/9_json_button.png)
 
 ### Tie break order
-![Tie Break Order](docs/screenshots/10_tie_break_order.png)
+![Tie Break Order](docs/screenshots/010_tie_break_order.png)
 
 ---
