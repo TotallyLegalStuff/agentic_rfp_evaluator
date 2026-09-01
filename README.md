@@ -1,5 +1,27 @@
 # Agentic RFP Evaluation - Two-Python-File Version
 
+## Live Application
+
+**Streamlit Community Cloud:**  
+https://agenticrfpevaluator-n6guf9sjgdcsi9ksrswxfd.streamlit.app/
+
+**LLM Provider:** Google Gemini Developer API  
+**Model:** Gemini 3.6 Flash
+
+## Technology Stack
+
+| Component | Technology |
+|---|---|
+| User interface | Streamlit |
+| Agentic orchestration | LangGraph |
+| LLM | Google Gemini 3.6 Flash |
+| LLM integration | langchain-google-genai |
+| Structured validation | Pydantic |
+| PDF extraction | PyMuPDF |
+| Database | SQLite |
+| Data display | pandas |
+| Language | Python |
+
 This project uses only **two Python source files**:
 
 ```text
