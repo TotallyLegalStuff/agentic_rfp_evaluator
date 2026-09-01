@@ -1,0 +1,383 @@
+{
+  "rfp_run_id": "SAMPLE-RUN-001",
+  "created_at": "2026-08-30T07:30:00+00:00",
+  "status": "completed",
+  "criteria": [
+    {
+      "criterion_id": 1,
+      "name": "Technical Capability",
+      "description": "Architecture, integrations, scalability, technical fit",
+      "weight": 30.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 2,
+      "name": "Implementation Plan",
+      "description": "Timeline, milestones, staffing, risk plan",
+      "weight": 20.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 3,
+      "name": "Commercial Value",
+      "description": "Pricing clarity, total cost, assumptions",
+      "weight": 20.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 4,
+      "name": "Security & Compliance",
+      "description": "Controls, certifications, privacy, auditability",
+      "weight": 20.0,
+      "max_score": 10.0,
+      "is_active": 1
+    },
+    {
+      "criterion_id": 5,
+      "name": "Support & Experience",
+      "description": "Support model, similar projects, references",
+      "weight": 10.0,
+      "max_score": 10.0,
+      "is_active": 1
+    }
+  ],
+  "benchmarks": {
+    "1": 9.0,
+    "2": 10.0,
+    "3": 10.0,
+    "4": 9.0,
+    "5": 10.0
+  },
+  "tie_break_order": [
+    "Higher Peer Performance Index (PPI)",
+    "Earlier submission date",
+    "Higher historical experience rating",
+    "Supplier name ascending"
+  ],
+  "warnings": [],
+  "suppliers": [
+    {
+      "supplier_name": "NexaWorks",
+      "submission_date": "2026-08-17",
+      "experience_rating": 9.0,
+      "source_filename": "nexaworks.pdf",
+      "absolute_score": 86.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 8.0,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "justification": "Deterministic mock profile for Technical Capability, used only for development and reproducible demonstration.",
+          "evidence": "of Requirement The buyer needs improved supplier onboarding, workflow control, integration, auditability, reporting and operational support while balancing technical fit, implementation risk, security and total cost. Proposed Solution and Technical Approach \u2022 Domain-oriented services on managed con",
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_performance_pct": 88.88888888888889,
+          "weighted_contribution": 24.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 10.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Implementation Plan, used only for development and reproducible demonstration.",
+          "evidence": "roposal - no confidential data Page 2 Implementation Plan, Team and Commercials Timeline and Milestones Phase Weeks Milestone Mobilize 1-2 Backlog, RACI, environments, risk register Foundation 3-5 Identity, CI/CD, audit, core data Functional increments 6-11 Three demos with acceptance gates Integrat",
+          "benchmark": 10.0,
+          "gap": 0.0,
+          "relative_performance_pct": 100.0,
+          "weighted_contribution": 20.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 8.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Commercial Value, used only for development and reproducible demonstration.",
+          "evidence": "ring, QA and cloud/integration responsibilities appropriate to the stated plan. Price Table Item USD Implementation $355,000 Integration/migration $70,000 Year-1 support $72,000 Year-1 total $497,000 Commercial Assumptions Prices are fictional classroom figures. Scope changes and additional interfac",
+          "benchmark": 10.0,
+          "gap": -2.0,
+          "relative_performance_pct": 80.0,
+          "weighted_contribution": 16.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 8.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Security & Compliance, used only for development and reproducible demonstration.",
+          "evidence": "ing and operational support while balancing technical fit, implementation risk, security and total cost. Proposed Solution and Technical Approach \u2022 Domain-oriented services on managed containers, API gateway, event streaming and centralized observability. \u2022 Reusable adapter layer for ERP, procuremen",
+          "benchmark": 9.0,
+          "gap": -1.0,
+          "relative_performance_pct": 88.88888888888889,
+          "weighted_contribution": 16.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 10.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "justification": "Deterministic mock profile for Support & Experience, used only for development and reproducible demonstration.",
+          "evidence": "ty and reporting systems, with phased delivery, transparent pricing and ongoing support. Executive Summary NexaWorks is the most balanced proposal and has the strongest implementation plan and support model, with clear milestones, acceptance gates, staffing, risk ownership and transition activities.",
+          "benchmark": 10.0,
+          "gap": 0.0,
+          "relative_performance_pct": 100.0,
+          "weighted_contribution": 10.0
+        }
+      ],
+      "risks": [
+        "Mock mode is deterministic development data, not a real procurement judgement."
+      ],
+      "overall_summary": "Deterministic mock evaluation used to exercise the complete workflow without an API key.",
+      "ppi": 90.44444444444443,
+      "final_rank": 1
+    },
+    {
+      "supplier_name": "Apex Systems",
+      "submission_date": "2026-08-18",
+      "experience_rating": 8.0,
+      "source_filename": "apex_systems.pdf",
+      "absolute_score": 79.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "justification": "Deterministic mock profile for Technical Capability, used only for development and reproducible demonstration.",
+          "evidence": "ng and ongoing support. Executive Summary Apex proposes the strongest technical architecture and security posture, but at the highest Year-1 price and with a moderate 20-week delivery plan. Understanding of Requirement The buyer needs improved supplier onboarding, workflow control, integration, audi",
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_performance_pct": 100.0,
+          "weighted_contribution": 27.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 7.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Implementation Plan, used only for development and reproducible demonstration.",
+          "evidence": "roposal - no confidential data Page 2 Implementation Plan, Team and Commercials Timeline and Milestones Phase Weeks Milestone Discovery/design 1-3 Validated architecture and interfaces Core build 4-10 Workflow, identity and reporting Integration/migration 11-15 ERP/procurement pilot Security/UAT 16-",
+          "benchmark": 10.0,
+          "gap": -3.0,
+          "relative_performance_pct": 70.0,
+          "weighted_contribution": 14.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 6.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Commercial Value, used only for development and reproducible demonstration.",
+          "evidence": "trongest technical architecture and security posture, but at the highest Year-1 price and with a moderate 20-week delivery plan. Understanding of Requirement The buyer needs improved supplier onboarding, workflow control, integration, auditability, reporting and operational support while balancing t",
+          "benchmark": 10.0,
+          "gap": -4.0,
+          "relative_performance_pct": 60.0,
+          "weighted_contribution": 12.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Security & Compliance, used only for development and reproducible demonstration.",
+          "evidence": "pport. Executive Summary Apex proposes the strongest technical architecture and security posture, but at the highest Year-1 price and with a moderate 20-week delivery plan. Understanding of Requirement The buyer needs improved supplier onboarding, workflow control, integration, auditability, reporti",
+          "benchmark": 9.0,
+          "gap": 0.0,
+          "relative_performance_pct": 100.0,
+          "weighted_contribution": 18.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 8.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "justification": "Deterministic mock profile for Support & Experience, used only for development and reproducible demonstration.",
+          "evidence": "ty and reporting systems, with phased delivery, transparent pricing and ongoing support. Executive Summary Apex proposes the strongest technical architecture and security posture, but at the highest Year-1 price and with a moderate 20-week delivery plan. Understanding of Requirement The buyer needs",
+          "benchmark": 10.0,
+          "gap": -2.0,
+          "relative_performance_pct": 80.0,
+          "weighted_contribution": 8.0
+        }
+      ],
+      "risks": [
+        "Mock mode is deterministic development data, not a real procurement judgement."
+      ],
+      "overall_summary": "Deterministic mock evaluation used to exercise the complete workflow without an API key.",
+      "ppi": 84.0,
+      "final_rank": 2
+    },
+    {
+      "supplier_name": "Orbit Digital",
+      "submission_date": "2026-08-15",
+      "experience_rating": 9.5,
+      "source_filename": "orbit_digital.pdf",
+      "absolute_score": 72.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 6.0,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "justification": "Deterministic mock profile for Technical Capability, used only for development and reproducible demonstration.",
+          "evidence": "s the strongest experience narrative and reference portfolio, but its technical integration plan is vague and leaves interface failure handling undefined. Understanding of Requirement The buyer needs improved supplier onboarding, workflow control, integration, auditability, reporting and operational",
+          "benchmark": 9.0,
+          "gap": -3.0,
+          "relative_performance_pct": 66.66666666666666,
+          "weighted_contribution": 18.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 7.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Implementation Plan, used only for development and reproducible demonstration.",
+          "evidence": "roposal - no confidential data Page 2 Implementation Plan, Team and Commercials Timeline and Milestones Phase Weeks Milestone Discovery 1-3 Requirements and interface inventory Configuration/build 4-9 Configured platform Migration/integration 10-13 Trial migration and connections UAT 14-15 Acceptanc",
+          "benchmark": 10.0,
+          "gap": -3.0,
+          "relative_performance_pct": 70.0,
+          "weighted_contribution": 14.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 8.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Commercial Value, used only for development and reproducible demonstration.",
+          "evidence": "ring, QA and cloud/integration responsibilities appropriate to the stated plan. Price Table Item USD Implementation $330,000 Integration/migration $65,000 Year-1 support $78,000 Year-1 total $473,000 Commercial Assumptions Prices are fictional classroom figures. Scope changes and additional interfac",
+          "benchmark": 10.0,
+          "gap": -2.0,
+          "relative_performance_pct": 80.0,
+          "weighted_contribution": 16.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 7.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Security & Compliance, used only for development and reproducible demonstration.",
+          "evidence": "ing and operational support while balancing technical fit, implementation risk, security and total cost. Proposed Solution and Technical Approach \u2022 Cloud-hosted modular platform with workflow, reporting and managed relational storage. \u2022 ERP, procurement and SSO connections will be configured during",
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_performance_pct": 77.77777777777779,
+          "weighted_contribution": 14.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 10.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "justification": "Deterministic mock profile for Support & Experience, used only for development and reproducible demonstration.",
+          "evidence": "ty and reporting systems, with phased delivery, transparent pricing and ongoing support. Executive Summary Orbit Digital has the strongest experience narrative and reference portfolio, but its technical integration plan is vague and leaves interface failure handling undefined. Understanding of Requi",
+          "benchmark": 10.0,
+          "gap": 0.0,
+          "relative_performance_pct": 100.0,
+          "weighted_contribution": 10.0
+        }
+      ],
+      "risks": [
+        "Mock mode is deterministic development data, not a real procurement judgement."
+      ],
+      "overall_summary": "Deterministic mock evaluation used to exercise the complete workflow without an API key.",
+      "ppi": 75.55555555555556,
+      "final_rank": 3
+    },
+    {
+      "supplier_name": "BrightPath Tech",
+      "submission_date": "2026-08-16",
+      "experience_rating": 5.5,
+      "source_filename": "brightpath_tech.pdf",
+      "absolute_score": 72.0,
+      "criteria": [
+        {
+          "criterion_id": 1,
+          "criterion_name": "Technical Capability",
+          "score": 7.0,
+          "max_score": 10.0,
+          "weight": 30.0,
+          "justification": "Deterministic mock profile for Technical Capability, used only for development and reproducible demonstration.",
+          "evidence": "city model or explicit performance thresholds are provided. \u2022 Only a high-level architecture diagram is supplied. Fictional classroom supplier proposal - no confidential data Page 2 Implementation Plan, Team and Commercials Timeline and Milestones Phase Weeks Milestone Kick-off/design 1 Approved bac",
+          "benchmark": 9.0,
+          "gap": -2.0,
+          "relative_performance_pct": 77.77777777777779,
+          "weighted_contribution": 21.0
+        },
+        {
+          "criterion_id": 2,
+          "criterion_name": "Implementation Plan",
+          "score": 9.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Implementation Plan, used only for development and reproducible demonstration.",
+          "evidence": "roposal - no confidential data Page 2 Implementation Plan, Team and Commercials Timeline and Milestones Phase Weeks Milestone Kick-off/design 1 Approved backlog Build 2-6 Core portal and workflows Integrations 7-8 ERP and SSO connections UAT/launch 9-10 Production go-live Team Structure A cross-func",
+          "benchmark": 10.0,
+          "gap": -1.0,
+          "relative_performance_pct": 90.0,
+          "weighted_contribution": 18.0
+        },
+        {
+          "criterion_id": 3,
+          "criterion_name": "Commercial Value",
+          "score": 10.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Commercial Value, used only for development and reproducible demonstration.",
+          "evidence": "ent pricing and ongoing support. Executive Summary BrightPath offers the lowest price and fastest schedule, but the proposal gives limited compliance evidence and has the weakest comparable-enterprise experience. Understanding of Requirement The buyer needs improved supplier onboarding, workflow con",
+          "benchmark": 10.0,
+          "gap": 0.0,
+          "relative_performance_pct": 100.0,
+          "weighted_contribution": 20.0
+        },
+        {
+          "criterion_id": 4,
+          "criterion_name": "Security & Compliance",
+          "score": 4.0,
+          "max_score": 10.0,
+          "weight": 20.0,
+          "justification": "Deterministic mock profile for Security & Compliance, used only for development and reproducible demonstration.",
+          "evidence": "ing and operational support while balancing technical fit, implementation risk, security and total cost. Proposed Solution and Technical Approach \u2022 Python/TypeScript services on a managed cloud application platform. \u2022 REST API integration is proposed, but detailed interface contracts are deferred to",
+          "benchmark": 9.0,
+          "gap": -5.0,
+          "relative_performance_pct": 44.44444444444444,
+          "weighted_contribution": 8.0
+        },
+        {
+          "criterion_id": 5,
+          "criterion_name": "Support & Experience",
+          "score": 5.0,
+          "max_score": 10.0,
+          "weight": 10.0,
+          "justification": "Deterministic mock profile for Support & Experience, used only for development and reproducible demonstration.",
+          "evidence": "ty and reporting systems, with phased delivery, transparent pricing and ongoing support. Executive Summary BrightPath offers the lowest price and fastest schedule, but the proposal gives limited compliance evidence and has the weakest comparable-enterprise experience. Understanding of Requirement Th",
+          "benchmark": 10.0,
+          "gap": -5.0,
+          "relative_performance_pct": 50.0,
+          "weighted_contribution": 5.0
+        }
+      ],
+      "risks": [
+        "Mock mode is deterministic development data, not a real procurement judgement."
+      ],
+      "overall_summary": "Deterministic mock evaluation used to exercise the complete workflow without an API key.",
+      "ppi": 75.22222222222223,
+      "final_rank": 4
+    }
+  ]
+}
